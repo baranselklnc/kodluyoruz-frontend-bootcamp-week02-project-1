@@ -1,0 +1,139 @@
+$btn-bgc:#824FF1;
+$ft-family:Roboto;
+$btn-radius:6px;
+body{
+ width: 1600px;
+ height: 920px;
+
+.logo{
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 37px;
+
+}
+a{
+font-family: $ft-family;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+text-decoration: none;
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #1B0A42;
+}
+.menu{
+    
+    position: absolute;
+    margin-left: 273px;
+    margin-top: 37px;
+    
+    
+    a{
+        padding: 38px;
+    }
+    
+}
+.right-side{
+    position: absolute;
+    margin-top: 37px;
+    right: 67px;
+    a {
+        padding: 38px;
+    } 
+    
+}
+.left-side{
+    position: absolute;
+    height: 152px;
+    width: 557px;
+    top:350px;
+    left: 200px;
+    h1{
+font-family: Ramaraja;
+font-style: normal;
+font-weight: normal;
+font-size: 72px;
+line-height: 76px;
+/* or 106% */
+
+letter-spacing: 0.02em;
+
+color: #1B0A42;
+    }
+}
+.subheading{
+    position:absolute;
+    width: 582px;
+    height: 96px;
+    left: 200px;
+    top:580px;
+    p{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 32px;
+        /* or 160% */
+        
+        letter-spacing: 0.02em;
+        
+        color: #9A9A9A;
+        
+    }
+}
+.down-button{
+ position:absolute;
+ background-color:$btn-bgc;
+ font-family: $ft-family;
+border-radius: $btn-radius;
+height: 63px;
+width: 152px;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 32px;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+border: none;
+cursor: pointer;
+left: 200px;
+top:750px;
+}
+.sign-button{
+    background-color:$btn-bgc;
+    font-family: $ft-family;
+   border-radius: $btn-radius;
+   height: 63px;
+   width: 152px;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 32px;
+   text-align: center;
+   letter-spacing: 0.02em;
+   color: #FFFFFF;
+   border: none;
+   cursor: pointer;
+}
+.picture{
+    position: absolute;;
+    right: 92px;
+    top: 138px;
+    width: 658px;
+    height: 700px;
+    #hero{
+        position: absolute;
+        top:138px;
+    }
+    #bcg{
+        position: absolute;
+        top: 138px;
+        right: 5px;
+    }
+}
+
+}
